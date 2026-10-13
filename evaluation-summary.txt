@@ -1,0 +1,10 @@
+agent       episodes success mean_score median_score actions moves scans traction_moves traction_toggles unprotected_slips invalid
+random           900    0.0%    -342.73      -294.00   55.71  1.72 52.29           0.30             0.64              0.33    0.52
+  status: success=0, stopped=496, destroyed=96, timeout=308
+  scenario success proportion: 0.000 (descriptive 95% bootstrap interval [0.000, 0.000])
+logic            900  100.0%    9894.23      9895.50   39.80  9.67 27.13           9.67             1.00              0.00    0.00
+  status: success=900, stopped=0, destroyed=0, timeout=0
+  scenario success proportion: 1.000 (descriptive 95% bootstrap interval [1.000, 1.000])
+paired scenario score differences relative to random:
+  logic: +10236.96 (descriptive 95% bootstrap interval [+10204.21, +10272.02])
+raw results: results.csv
